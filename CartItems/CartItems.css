@@ -1,0 +1,136 @@
+.Cartitem{
+    margin: 100px 170px;
+}
+
+.Cartitem hr{
+    height: 3px;
+    background: lightgrey;
+    border: 0;
+}
+.format-main{
+     display: grid;
+     grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+     align-items: center;
+     gap: 75px;
+     padding: 20px 0px;
+     color: black;
+     font: 18px;
+     font-weight: 600;
+}
+.format{
+    font-size: 17px;
+    font-weight: 500;
+}
+.product-icon{
+    height: 62px;
+}
+.cart-removeicon{
+    width: 15px;
+    margin: 0px 40px;
+    cursor: pointer;
+}
+.quantity{
+    width: 64px;
+    height: 50px;
+    border: 2px solid lightgoldenrodyellow;
+    background: white;
+}
+.cartitem-down {
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px gray(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+}
+
+.items-total h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cartitems-total-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: gray;
+    padding: 10px 0;
+}
+
+.cartitems-total-item h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 15px 0;
+}
+
+.btn1 {
+    width: 100%;
+    padding: 12px;
+    background-color: violet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.btn1:hover {
+    background-color: lightskyblue;
+}
+
+.cartitem-promocode {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cartitem-promocode p {
+    font-size: 16px;
+    color: lightgrey;
+}
+
+.cartitem-promobox {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.cartitem-promobox input {
+    padding: 10px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+    width: 70%;
+}
+
+.cartitem-promobox button {
+    padding: 10px 15px;
+    background-color: lightgreen;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cartitem-promobox button:hover {
+    background-color: lightgreen;
+}
+
+
+  
+
+
+
